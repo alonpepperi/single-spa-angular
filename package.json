@@ -1,6 +1,6 @@
 {
   "name": "single-spa-angular-webpack5",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Helpers for building single-spa applications which use Angular 2+ (fix for webpack 5)",
   "repository": {
     "type": "git",
