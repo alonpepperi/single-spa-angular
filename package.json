@@ -1,10 +1,10 @@
 {
-  "name": "single-spa-angular",
+  "name": "single-spa-angular-webpack5",
   "version": "0.0.0",
-  "description": "Helpers for building single-spa applications which use Angular 2+",
+  "description": "Helpers for building single-spa applications which use Angular 2+ (fix for webpack 5)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/single-spa/single-spa-angular.git"
+    "url": "git+https://github.com/alonpepperi/single-spa-angular.git"
   },
   "keywords": [
     "single-spa",
@@ -145,12 +145,7 @@
     "trailingComma": "all",
     "bracketSpacing": true
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
+
   "lint-staged": {
     "*.{ts,html,scss,md,yml}": [
       "prettier --write"
