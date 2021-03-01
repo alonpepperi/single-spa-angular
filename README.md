@@ -1,4 +1,4 @@
-# single-spa-angular
+# single-spa-angular (fix for using webpack5)
 
 Helpers for building [single-spa](https://github.com/single-spa/single-spa) applications which use Angular.
 
